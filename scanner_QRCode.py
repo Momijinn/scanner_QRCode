@@ -32,7 +32,7 @@ while True:
 
     #picture change PIL
     pil_img = PIL.Image.fromarray(img)
-    width, height = pil.size
+    width, height = pil_img.size
     raw = pil_img.tostring()
     image = zbar.Image(width, height, 'Y800', raw)
 
