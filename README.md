@@ -11,7 +11,7 @@ Pillow
 numpy
 
 ##ライブラリのインストール
-sudo apt-get install python-openCV  
+sudo apt-get install python-opencv  
 sudo apt-get install python-zbar  
 sudo apt-get install python-pillow  
 sudo pip install numpy  
