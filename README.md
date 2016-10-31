@@ -1,7 +1,7 @@
 # scanner_QRCode
 QRコードをカメラで読み取り、解読するプログラム  
 
-scanner_QRCode_usbCamera.py : USBカメラによるQRコードの読み取り
+scanner_QRCode_usbCamera.py : USBカメラによるQRコードの読み取り  
 scanner_QRCode_picamera.py : Raspberry Pi CameraによるQRコードの読み取り  
 
 ##必要ライブラリ
