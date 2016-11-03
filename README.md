@@ -7,14 +7,16 @@ scanner_QRCode_picamera.py : Raspberry Pi CameraによるQRコードの読み取
 ##必要ライブラリ
 openCV 2.4.9.1  
 zbar  
-Pillow
-numpy
+Pillow  
+numpy  
+picamera  
 
 ##ライブラリのインストール
 sudo apt-get install python-opencv  
 sudo apt-get install python-zbar  
 sudo apt-get install python-pillow  
-sudo pip install numpy  
+sudo apt-get install python-picamera  
+sudo apt-get install python-numpy  
 
 
 ##動作確認環境  
